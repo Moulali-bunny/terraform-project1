@@ -61,7 +61,7 @@ resource "aws_instance" "three" {
   tags = {
     Name = "app-server-2"
   }
-}/*
+}*/
 
 resource "aws_security_group" "five" {
   name = "elb-sg"
