@@ -55,7 +55,7 @@ resource "aws_instance" "three" {
 resource "aws_instance" "four" {
   ami             = "ami-081b0a6eac00b4f53"
   instance_type   = "t3.micro"
-  key_name        = "rahamabc"
+  key_name        = "ubuntu"
   vpc_security_group_ids = [aws_security_group.five.id]
   availability_zone = "us-east-1b"
   tags = {
