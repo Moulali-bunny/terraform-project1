@@ -52,7 +52,7 @@ resource "aws_instance" "three" {
   }
 }
 
-resource "aws_instance" "four" {
+*/resource "aws_instance" "four" {
   ami             = "ami-081b0a6eac00b4f53"
   instance_type   = "t3.micro"
   key_name        = "ubuntu"
@@ -61,7 +61,7 @@ resource "aws_instance" "four" {
   tags = {
     Name = "app-server-2"
   }
-}
+}/*
 
 resource "aws_security_group" "five" {
   name = "elb-sg"
